@@ -1,0 +1,11 @@
+displayName: Audit
+type: middleware
+
+import: github.com/fdevillard/plugin
+
+summary: "Vanilla plugin to test websocket"
+
+testData:
+  Headers:
+    X-Demo: test
+    X-URL: '{{URL}}'
